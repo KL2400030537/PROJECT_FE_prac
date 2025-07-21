@@ -8,7 +8,7 @@ import Welcome from './welcome.jsx'
 
 createRoot(document.getElementById('root')).render(
 
-    <BrowserRouter basename="FEF_PRO_prac">
+    <BrowserRouter basename="/FEF_PRO_prac">
      <Routes>
       <Route path="Profile" element={<Profile/>}></Route>
       <Route path="hidden/cre" element={<Mypage/>}></Route>
