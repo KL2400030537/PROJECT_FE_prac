@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Profile from './Profile.jsx'
 import Mypage from './cre.jsx'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Welcome from './welcome.jsx'
 
 createRoot(document.getElementById('root')).render(
