@@ -1,0 +1,31 @@
+.card-container {
+  display: flex;
+  justify-content: center;  /* Align items horizontally */
+  align-items: start;      /* Align items vertically */
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: no;
+  min-height: 100vh;        /* Centering vertically in full screen */
+}
+
+.card {
+  width: 240px;
+  padding: 1.5rem;
+  background-color:rgb(220,120,11);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;    /* Smooth animation on hover */
+  
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift the card up */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
