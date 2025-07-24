@@ -7,5 +7,5 @@ export default defineConfig({
   server : {
     port : "1003"
   },
-  base:'PROJECT_FE_prac'
+  base:'/PROJECT_FE_prac/'
 })
